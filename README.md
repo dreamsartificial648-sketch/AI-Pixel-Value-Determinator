@@ -1,3 +1,13 @@
+This custom-built, lightweight AI model learns to compress and reconstruct the visual datasets it’s trained on — almost like how memory works in dreams. It doesn’t copy pixels; instead, it reimagines what it’s seen, creating new visuals that feel related to the originals.
+
+You can guide it in two ways:
+
+Reconstruction Mode: Feed it a single image or a small dataset and train for many epochs — it will try to recall and rebuild what it saw, producing a distorted yet recognizable version.
+Generalization Mode: Train it on large datasets with fewer epochs — it begins to dream, generating unique, abstract images that blend patterns and memories from across the data.
+
+APVD is built around a Variational Autoencoder (VAE) architecture, meaning it learns a compressed “recipe” for each image and then paints new ones from that recipe. The result is a surreal, memory-like reconstruction — a glimpse into how machines might dream.
+
+
 ================================================================================
 APVD (AI Pixel Value Determinator) — What This Project Does
 ================================================================================
